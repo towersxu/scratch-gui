@@ -197,6 +197,27 @@ export default [
         helpLink: 'https://scratch.mit.edu/microbit'
     },
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="usb microbit"
+                description="Name for the 'usb microbit' extension"
+                id="gui.extension.usbMicrobit.name"
+            />
+        ),
+        extensionId: 'usbMicrobit',
+        collaborator: 'scratch3-adapter',
+        iconURL: microbitIconURL,
+        insetIconURL: microbitInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="usb microbit"
+                description="Description for the 'usb microbit' extension"
+                id="gui.extension.usbMicrobit.description"
+            />
+        ),
+        featured: true
+    },
+    {
         name: 'LEGO MINDSTORMS EV3',
         extensionId: 'ev3',
         collaborator: 'LEGO',
