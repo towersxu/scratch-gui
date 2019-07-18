@@ -18,6 +18,12 @@
     "test:smoke": "jest --runInBand test[\\\\/]smoke",
     "watch": "webpack --progress --colors --watch"
   },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/LLK/scratch-gui#readme",
